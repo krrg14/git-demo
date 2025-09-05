@@ -3,5 +3,9 @@ git add
 git status
 git commit -m "frist commit"
 git log 
-gti log -p
-
+git log -p
+git branch -M main 
+git remote
+git remote -v
+git remote add origin main https://github.com/krrg14/git-demo.git
+git push -u origin main
