@@ -9,3 +9,4 @@ git remote
 git remote -v
 git remote add origin main https://github.com/krrg14/git-demo.git
 git push -u origin main
+git rm --cached gitdemo
