@@ -11,4 +11,7 @@ git remote add origin main https://github.com/krrg14/git-demo.git
 git push -u origin main
 git rm --cached gitdemo
 git add --amend
-
+git revert
+git reset
+git rebase
+git cherry pick 
