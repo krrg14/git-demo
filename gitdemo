@@ -4,26 +4,21 @@ git status
 git commit -m "frist commit"
 git log 
 git log -p
-git branch -M main 
+git branch <name of branch>
+git branch 
+git branch checkout/switch <branch name>
+git branch -M main
+git branch -d <branch name>  --# for delete branch
 git remote
 git remote -v
 git remote add origin main https://github.com/krrg14/git-demo.git
 git push -u origin main
 git rm --cached gitdemo
 git add --amend
-<<<<<<< HEAD
 git revert
 git reset
 git rebase
 git cherry pick
-git branch -d <branch name>
-=======
-<<<<<<< HEAD
-git revert
-git reset
-git rebase
-git cherry pick 
-=======
+git checkout -b <name of bnch> --# for make branch and direct switch 
+git merge <name of bnch>
 
->>>>>>> c97f5c4a40114a79f67768304a3a26250dec6a70
->>>>>>> fd579fe0b908a863c81c22220357d918a66227b5
