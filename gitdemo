@@ -24,3 +24,4 @@ git checkout -b <name of bnch> --# for make branch and direct switch
 git merge <name of bnch>
 git clone <url>
 git clone <url> <folder name>
+git
